@@ -1,0 +1,57 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+
+
+// Variables
+@import 'variables';
+
+
+.logo-image{
+  width:400px;
+}
+.custom-link {
+  background-color: #1a202c;
+  color: #fff;
+
+}
+.img-thumbnail {
+  width: 400px;
+  height: auto;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.product-title {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.add-to-cart {
+  margin-top: 2rem;
+}
+.card{
+  height:100%;
+  display:flex;
+  flex-direction: column;
+}
+.card-body{
+  flex-grow:1;
+}
+
+
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+@import 'bootstrap-vue/dist/bootstrap-vue.css';

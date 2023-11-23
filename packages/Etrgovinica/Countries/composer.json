@@ -1,0 +1,18 @@
+{
+  "name": "etrgovinica/countries",
+  "description": "Lista drzava za etrgovinica projekt",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mirza",
+      "email": "mirza.redzic@live.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Etrgovinica\\Countries\\": "src/"
+    },
+    "require": {
+    }
+  }}
